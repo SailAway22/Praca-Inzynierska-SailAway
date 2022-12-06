@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body {
+  background: whitesmoke;
+  margin: 0;
+  font-family: 'Playfair Display';
+}
+
+.base-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.base-container .add-project {
+  text-decoration: none;
+  background: #302618 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  margin-top: 2em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: 1.5em;
+  color: #B7A677;
+  letter-spacing: 0.1em;
+  text-align: center;
+  width: 80%;
+  cursor: pointer;
+}
+
+.base-container .add-project:hover {
+  background: #B7A677 0% 0% no-repeat padding-box;
+  color: #302618;
+}
+
+.base-container .add-project > i {
+  padding: 1em 1em;
+}
+
+.base-container .logo {
+  width: 200px;
+  margin: 2em auto;
+}
+
+.base-container ul {
+  list-style-type: none;
+  font: normal normal normal 20px/27px TimesNewRoman;
+  letter-spacing: 0.72px;
+  color: whitesmoke;
+  height: 100%;
+  width: calc(100% - 40px);
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.base-container ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: left;
+  color: whitesmoke;
+  margin-bottom: 1em;
+}
+
+.base-container ul li i {
+  font-size: 1.5em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 15%;
+}
+
+.base-container ul li .button {
+  border-bottom: 1px solid whitesmoke;
+  letter-spacing: 0.72px;
+  color: whitesmoke;
+  padding: 0.2rem;
+  width: 100%;
+}
+
+.base-container ul li .search-bar {
+  width: 100%;
+  margin-left: 0.5em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.base-container ul li .search-bar ::-webkit-input-placeholder {
+  color: whitesmoke;
+}
+
+.base-container ul li .search-bar :-ms-input-placeholder {
+  color: whitesmoke;
+}
+
+.base-container ul li .search-bar ::-ms-input-placeholder {
+  color: whitesmoke;
+}
+
+.base-container ul li .search-bar ::placeholder {
+  color: whitesmoke;
+}
+
+.base-container ul li .search-bar input {
+  background: transparent 0% 0% no-repeat padding-box;
+  border: none;
+  width: 100%;
+  height: 2.5em;
+  text-align: center;
+  letter-spacing: 0.72px;
+  color: whitesmoke;
+  margin: 0.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.base-container ul li .dates {
+  width: 100%;
+  margin-left: 0.5em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.base-container ul li .dates > form > input {
+  background: transparent 0% 0% no-repeat padding-box;
+  border: none;
+  width: 45%;
+  height: 2.5em;
+  text-align: center;
+  letter-spacing: 0.72px;
+  color: whitesmoke;
+  margin: 0.2em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.base-container ul li .spots {
+  width: 100%;
+  margin-left: 0.5em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.base-container ul li .spots ::-webkit-input-placeholder {
+  color: whitesmoke;
+}
+
+.base-container ul li .spots :-ms-input-placeholder {
+  color: whitesmoke;
+}
+
+.base-container ul li .spots ::-ms-input-placeholder {
+  color: whitesmoke;
+}
+
+.base-container ul li .spots ::placeholder {
+  color: whitesmoke;
+}
+
+.base-container ul li .spots > form > input {
+  background: transparent 0% 0% no-repeat padding-box;
+  border: none;
+  width: 100%;
+  height: 2.5em;
+  text-align: center;
+  letter-spacing: 0.72px;
+  color: whitesmoke;
+  margin: 0.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.base-container ul li a {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 2em;
+}
+
+.base-container ul li:hover .button {
+  border-bottom: 1px solid whitesmoke;
+  padding-left: 2.5em;
+}
+
+.base-container main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+}
+
+.base-container main .profile {
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border-radius: 100%;
+  width: 5em;
+  height: 5em;
+  margin: 0.5em;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.base-container main .profile > img {
+  border-radius: 100%;
+  height: 5em;
+  width: 5em;
+}
+
+.base-container main .map .cruise-important-information-description {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #B7A677 0% 0% no-repeat padding-box;
+  color: #302618;
+  padding: 0.5em;
+  width: 50%;
+}
+
+.base-container main .map .cruise-important-information {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5em;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.base-container main .map .cruise-important-information ul {
+  list-style-type: none;
+  width: 95%;
+  padding: 0;
+}
+
+.base-container main .map .cruise-important-information ul li {
+  padding: 0.3em;
+  margin: 0.3em;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  color: #302618;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.base-container main .map .cruise-important-information ul li .info {
+  margin-left: 0.5em;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    height: 100vh;
+    font-size: 18px;
+  }
+  .base-container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 100vh;
+  }
+  .base-container main {
+    width: 80vw;
+    margin-left: 22.3vw;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=mapp_view.css.map */

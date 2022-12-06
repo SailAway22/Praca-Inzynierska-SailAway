@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 75vw;
+}
+.marker {
+    background-image: url("public/img/jachcik.png");
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    /*border-radius: 50%;*/
+    cursor: pointer;
+}
+.mapboxgl-popup {
+    max-width: 300px;
+    padding: 0.5em;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: larger;
+    background-color: #302618;
+    color: whitesmoke;
+}
+body{
+    background: whitesmoke;
+    margin:0;
+    font-family: 'Playfair Display';
+
+}
+.base-container{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+        .add-project {
+            text-decoration: none;
+            background: #302618 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            margin-top: 2em;
+            align-self: center;
+            border-radius: 1.5em;
+            color: #B7A677;
+            letter-spacing: 0.1em;
+            text-align: center;
+            width: 80%;
+            cursor: pointer;
+        }
+        .add-project:hover {
+            background: #B7A677 0% 0% no-repeat padding-box;
+            color: #302618;
+        }
+        .add-project>i {
+            padding: 1em 1em;
+        }
+        .logo{
+            width: 200px;
+            margin: 2em auto;
+
+        }
+        ul{
+            list-style-type: none;
+            font: normal normal normal 20px/27px TimesNewRoman;
+            letter-spacing: 0.72px;
+            color: whitesmoke;
+            height: 100%;
+            width: calc(100% - 40px);
+            position: relative;
+            margin: 0 auto;
+            padding: 0;
+            li {
+                display: flex;
+                flex-direction: row;
+                text-align: left;
+                color: whitesmoke;
+                margin-bottom: 1em;
+                i {
+                    font-size: 1.5em;
+                    align-self:center;
+                    width:15%
+                }
+                .button {
+                    border-bottom: 1px solid whitesmoke;
+                    letter-spacing: 0.72px;
+                    color: whitesmoke;
+                    padding: 0.2rem;
+                    width: 100%;
+                }
+                .search-bar {
+                    width: 100%;
+                    margin-left: 0.5em;
+                    align-self: center;
+                    ::placeholder {
+                        color: whitesmoke;
+                      }
+                    input {
+                    background: transparent 0% 0% no-repeat padding-box;
+                    border: none;
+                    width: 100%;
+                    height: 2.5em;
+                    text-align: center;
+                    letter-spacing: 0.72px;
+                    color: whitesmoke;
+                    margin: 0.5;
+                    box-sizing: border-box;
+                    }
+                }
+                
+                .dates {
+                    width: 100%;
+                    margin-left: 0.5em;
+                    align-self: center;
+                    
+                }
+                .dates>form>input {
+                    background: transparent 0% 0% no-repeat padding-box;
+                    border: none;
+                    width: 45%;
+                    height: 2.5em;
+                    text-align: center;
+                    letter-spacing: 0.72px;
+                    color: whitesmoke;
+                    margin: 0.2em;
+                    box-sizing: border-box;
+                }
+                .spots {
+                    width: 100%;
+                    margin-left: 0.5em;
+                    align-self: center;
+                    ::placeholder {
+                        color: whitesmoke;
+                      }
+                }
+                .spots>form>input {
+                    background: transparent 0% 0% no-repeat padding-box;
+                    border: none;
+                    width: 100%;
+                    height: 2.5em;
+                    text-align: center;
+                    letter-spacing: 0.72px;
+                    color: whitesmoke;
+                    margin: 0.5;
+                    box-sizing: border-box;
+                }
+                a {
+                    text-decoration: none;
+                    display: inline-block;
+                    line-height: 2em;
+                }
+                
+                
+
+            }
+            li:hover {
+                .button {
+                    border-bottom: 1px solid whitesmoke;
+                    padding-left: 2.5em;
+                }
+            }
+        }
+    main{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        .profile{
+            
+            box-shadow: 0px 3px 6px #00000029;
+            border-radius: 100%;
+            width: 5em;
+            height: 5em;
+            margin:0.5em;
+            position: absolute;
+            right: 0;
+            cursor: pointer;
+        }
+        .profile>img{
+            border-radius: 100%;
+            height: 5em;
+            width: 5em;
+        }
+        .map{
+            .cruise-important-information-description{
+                margin-top:3em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #B7A677 0% 0% no-repeat padding-box;
+                color: #302618;
+                padding:0.5em;
+                width:50%;
+
+            }
+            .cruise-important-information
+            {
+                width:95%;
+                display:flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0.5em;
+                box-shadow: 0px 3px 6px #00000029;
+                justify-content: center;
+                ul{
+                    list-style-type: none;
+                    width:95%;
+                    padding:0;
+                    li{
+
+                        padding: 0.3em;
+                        margin: 0.3em;
+                        box-shadow: 0px 3px 6px #00000029;
+                        color: #302618;
+                        display: flex;
+                        flex-direction: row;
+                        .info{
+                            margin-left: 0.5em;
+                            font-weight: bold;
+                        }
+
+                    }
+
+                }
+            }
+        }
+        
+        
+    }
+
+    
+}
+@media only screen and (min-width: 768px) {
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+        font-size: 18px;
+    }
+    .base-container{
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        height: 100vh;
+        main{
+            width:80vw;
+            margin-left: 22.3vw;
+            height: 100%;
+    }
+    }
+    
+}
