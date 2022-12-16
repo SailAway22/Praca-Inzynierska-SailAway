@@ -1,5 +1,7 @@
 # SailAway
-*helping sailors find crews and many more*
+
+*helping sailors find crews and so much more*
+
 
 ## Purpose of the project
 Creating an application that connects people all around the world helping them find crews and cruises to join.
