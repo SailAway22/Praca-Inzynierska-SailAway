@@ -25,7 +25,7 @@ ENV PHP_EXTENSIONS \
 RUN apk add --no-cache --virtual .build-deps $BUILD_DEPS \
     && docker-php-ext-configure gd --with-jpeg \
     && docker-php-ext-install -j "$(nproc)" $PHP_EXTENSIONS \
-    && del .build-deps
+    && apk del .build-deps
 
 RUN apk add --no-cache --virtual .run-deps $RUN_DEPS
 
