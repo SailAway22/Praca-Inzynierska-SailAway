@@ -27,7 +27,7 @@
                 </form>
             </div>
             <div class="registration">
-                <a href="http://20.16.165.177:8080/registration">REGISTRATION</a>
+                <a href="http://20.16.165.177/registration">REGISTRATION</a>
             </div>
         </div>
     </div>
