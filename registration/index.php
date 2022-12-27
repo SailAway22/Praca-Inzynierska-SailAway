@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ .'/../Routing.php';
+require '/var/www/html/Routing.php';
 
 session_start();
 if(!isset($_SESSION['ident'])){
