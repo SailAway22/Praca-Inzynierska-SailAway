@@ -15,7 +15,6 @@ ENV BUILD_DEPS \
     postgresql-dev
 
 ENV PHP_EXTENSIONS \
-    opcache \
     zip \
     gd \
     bcmath \
