@@ -1,6 +1,6 @@
 # SailAway
 
-*helping sailors find crews and sttsth more*
+*helping sailors find crews and sttssth more*
 
 
 ## Purpose of the project
